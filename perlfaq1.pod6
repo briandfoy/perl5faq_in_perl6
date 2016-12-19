@@ -13,6 +13,18 @@ load libraries from other languages and native libraries.
 
 =head2 Who supports Perl 6? Who develops it? Why is it free?
 
+So far, the general Perl 6 community supports the language. If you find
+corporate technical support, send a pull request to update this answer!
+
+You can see the list of contributors in the perl6 GitHub project
+(https://github.com/orgs/perl6/people). This is an open source project
+that's not controlled or owned by a particular entity. Larry Wall has
+copyrights and trademarks for certain symbols associated with the language.
+
+Why is it free? Why wouldn't it be? The original perlfaq started
+before the term "open source" was even a thing. Most of the world has
+caught up by now.
+
 =head2 Which version of Perl 6 should I use?
 
 The latest version! Perl 6 is in rapid development and is still evolving
