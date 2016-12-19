@@ -2,3 +2,11 @@ Fork, edit, and send a pull request! For the moment, I'll act as the
 editor to fix up the answers and handle a consistent tone and quality
 throughout everything.
 
+For the most part, leave the questions alone. You can translate "Perl"
+to "Perl 6", but otherwise they should be almost the same thing as the
+original question.
+
+I don't intend to add new questions. For that, you should contribute
+to the official Perl 6 FAQ (https://docs.perl6.org/language/faq.html).
+I'm doing this more as a fun project than an attempt to create
+language documentation.
