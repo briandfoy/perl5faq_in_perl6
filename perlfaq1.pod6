@@ -2,32 +2,32 @@
 
 =head1 General Questions About Perl
 
-=head2 What is Perl?
+=head2 What is Perl 6?
 
-=head2 Who supports Perl? Who develops it? Why is it free?
+=head2 Who supports Perl 6? Who develops it? Why is it free?
 
-=head2 Which version of Perl should I use?
+=head2 Which version of Perl 6 should I use?
 
 =head2 What are Perl 4, Perl 5, or Perl 6?
 
 =head2 What is Perl 6?
 
-=head2 How stable is Perl?
+=head2 How stable is Perl 6?
 
-=head2 How often are new versions of Perl released?
+=head2 How often are new versions of Perl 6 released?
 
-=head2 Is Perl difficult to learn?
+=head2 Is Perl 6 difficult to learn?
 
-=head2 How does Perl compare with other languages like Java, Python, REXX, Scheme, or Tcl?
+=head2 How does Perl 6 compare with other languages like Java, Python, REXX, Scheme, or Tcl?
 
-=head2 Can I do [task] in Perl?
+=head2 Can I do [task] in Perl 6?
 
-=head2 When shouldn't I program in Perl?
+=head2 When shouldn't I program in Perl 6?
 
-=head2 What's the difference between "perl" and "Perl"?
+=head2 What's the difference between "perl6" and "Perl 6"?
 
 =head2 What is a JAPH?
 
-=head2 How can I convince others to use Perl?
+=head2 How can I convince others to use Perl 6?
 
 =end pod
