@@ -48,3 +48,19 @@ their creators and readers.
 
 CPAN has several JAPH programs at http://www.cpan.org/misc/japh.
 
+=head2 How can I convince others to use Perl 6?
+
+Make cool things! Make other people jealous that you can do something
+better, faster, or cheaper than other languages. People often respond
+better to what they get out of it. If you run into resistance, figure
+out what those people get out of the other choice and how Perl might
+satisfy that requirement.
+
+Remember that Perl 6 might not be the right tool for every
+job. You're a much better advocate if your claims are reasonable and
+grounded in reality. Dogmatically advocating anything tends to make
+people discount your message. Be honest about possible disadvantages
+to your choice of Perl 6 since any choice has trade-offs.
+
+
+=end pod
