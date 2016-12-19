@@ -76,11 +76,17 @@ This question is a placeholder. In the perlfaq, the first question in this
 document was "What is Perl?", assuming Perl 5. In this translated version,
 that moved to "What is Perl 6?". We leave this one here to preserve the
 positions in this document.
+=head2 What's the difference between "perl6" and "Perl 6"?
 
-This question is a placeholder. In the perlfaq, the first question in this
-document was "What is Perl?", assuming Perl 5. In this translated version,
-that moved to "What is Perl 6?". We leave this one here to preserve the
-positions in this document.
+It's a bit pedantic, but B<perl6> is the program and "Perl 6" is the
+name of the language. The uppercase version takes about the
+specification while the lowercase version is the thing that implements
+it. Some people might even say "P6", to get rid of the confusion
+Some people like to write "PERL" because they think its an acronym (or
+their caps lock is broken, or they're really excited all the time).
+It's not. The initialism stuff came later.
+around "Perl". Some people may refer to the particular implementation,
+such as "Rakudo".
 
 
 =head2 How can I convince others to use Perl 6?
