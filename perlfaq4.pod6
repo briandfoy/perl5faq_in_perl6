@@ -1,0 +1,163 @@
+=begin pod
+
+=head1 Data Manipulation
+
+=head2 Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?
+
+=head2 Why is int() broken?
+
+=head2 Why isn't my octal data interpreted correctly?
+
+=head2 Does Perl have a round() function? What about ceil() and floor()? Trig functions?
+
+=head2 How do I convert between numeric representations/bases/radixes?
+
+=head2 Why doesn't & work the way I want it to?
+
+=head2 How do I multiply matrices?
+
+=head2 How do I perform an operation on a series of integers?
+
+=head2 How can I output Roman numerals?
+
+=head2 Why aren't my random numbers random?
+
+=head2 How do I get a random number between X and Y?
+
+=head2 How do I find the day or week of the year?
+
+=head2 How do I find the current century or millennium?
+
+=head2 How can I compare two dates and find the difference?
+
+=head2 How can I take a string and turn it into epoch seconds?
+
+=head2 How can I find the Julian Day?
+
+=head2 How do I find yesterday's date?
+
+=head2 Does Perl have a Year 2000 or 2038 problem? Is Perl Y2K compliant?
+
+=head2 How do I validate input?
+
+=head2 How do I unescape a string?
+
+=head2 How do I remove consecutive pairs of characters?
+
+=head2 How do I expand function calls in a string?
+
+=head2 How do I find matching/nesting anything?
+
+=head2 How do I reverse a string?
+
+=head2 How do I expand tabs in a string?
+
+=head2 How do I reformat a paragraph?
+
+=head2 How can I access or change N characters of a string?
+
+=head2 How do I change the Nth occurrence of something?
+
+=head2 How can I count the number of occurrences of a substring within a string?
+
+=head2 How do I capitalize all the words on one line?
+
+=head2 How can I split a [character]-delimited string except when inside [character]?
+
+=head2 How do I strip blank space from the beginning/end of a string?
+
+=head2 How do I pad a string with blanks or pad a number with zeroes?
+
+=head2 How do I extract selected columns from a string?
+
+=head2 How do I find the soundex value of a string?
+
+=head2 How can I expand variables in text strings?
+
+=head2 What's wrong with always quoting "$vars"?
+
+=head2 Why don't my E<lt>E<lt>HERE documents work?
+
+=head2 What is the difference between a list and an array?
+
+=head2 What is the difference between $array[1] and @array[1]?
+
+=head2 How can I remove duplicate elements from a list or array?
+
+=head2 How can I tell whether a certain element is contained in a list or array?
+
+=head2 How do I compute the difference of two arrays? How do I compute the intersection of two arrays?
+
+=head2 How do I test whether two arrays or hashes are equal?
+
+=head2 How do I find the first array element for which a condition is true?
+
+=head2 How do I handle linked lists?
+
+=head2 How do I handle circular lists?
+
+=head2 How do I shuffle an array randomly?
+
+=head2 How do I process/modify each element of an array?
+
+=head2 How do I select a random element from an array?
+
+=head2 How do I permute N elements of a list?
+
+=head2 How do I sort an array by (anything)?
+
+=head2 How do I manipulate arrays of bits?
+
+=head2 Why does defined() return true on empty arrays and hashes?
+
+=head2 How do I process an entire hash?
+
+=head2 How do I merge two hashes?
+
+=head2 What happens if I add or remove keys from a hash while iterating over it?
+
+=head2 How do I look up a hash element by value?
+
+=head2 How can I know how many entries are in a hash?
+
+=head2 How do I sort a hash (optionally by value instead of key)?
+
+=head2 How can I always keep my hash sorted?
+
+=head2 What's the difference between "delete" and "undef" with hashes?
+
+=head2 Why don't my tied hashes make the defined/exists distinction?
+
+=head2 How do I reset an each() operation part-way through?
+
+=head2 How can I get the unique keys from two hashes?
+
+=head2 How can I store a multidimensional array in a DBM file?
+
+=head2 How can I make my hash remember the order I put elements into it?
+
+=head2 Why does passing a subroutine an undefined element in a hash create it?
+
+=head2 How can I make the Perl equivalent of a C structure/C++ class/hash or array of hashes or arrays?
+
+=head2 How can I use a reference as a hash key?
+
+=head2 How can I check if a key exists in a multilevel hash?
+
+=head2 How can I prevent addition of unwanted keys into a hash?
+
+=head2 How do I handle binary data correctly?
+
+=head2 How do I determine whether a scalar is a number/whole/integer/float?
+
+=head2 How do I keep persistent data across program calls?
+
+=head2 How do I print out or copy a recursive data structure?
+
+=head2 How do I define methods for every class/object?
+
+=head2 How do I verify a credit card checksum?
+
+=head2 How do I pack arrays of doubles or floats for XS code?
+
+=end pod

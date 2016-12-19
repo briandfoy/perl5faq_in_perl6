@@ -1,0 +1,67 @@
+=begin pod
+
+=head1 General Perl Language Issues
+
+=head2 Can I get a BNF/yacc/RE for the Perl language?
+
+=head2 What are all these $@%&* punctuation signs, and how do I know when to use them?
+
+=head2 Do I always/never have to quote my strings or use semicolons and commas?
+
+=head2 How do I skip some return values?
+
+=head2 How do I temporarily block warnings?
+
+=head2 What's an extension?
+
+=head2 Why do Perl operators have different precedence than C operators?
+
+=head2 How do I declare/create a structure?
+
+=head2 How do I create a module?
+
+=head2 How do I adopt or take over a module already on CPAN?
+
+=head2 How do I create a class?
+
+=head2 How can I tell if a variable is tainted?
+
+=head2 What's a closure?
+
+=head2 What is variable suicide and how can I prevent it?
+
+=head2 How can I pass/return a {Function, FileHandle, Array, Hash, Method, Regex}?
+
+=head2 How do I create a static variable?
+
+=head2 What's the difference between dynamic and lexical (static) scoping? Between local() and my()?
+
+=head2 How can I access a dynamic variable while a similarly named lexical is in scope?
+
+=head2 What's the difference between deep and shallow binding?
+
+=head2 Why doesn't "my($foo) = E<lt>$fhE<gt>;" work right?
+
+=head2 How do I redefine a builtin function, operator, or method?
+
+=head2 What's the difference between calling a function as &foo and foo()?
+
+=head2 How do I create a switch or case statement?
+
+=head2 How can I catch accesses to undefined variables, functions, or methods?
+
+=head2 Why can't a method included in this same file be found?
+
+=head2 How can I find out my current or calling package?
+
+=head2 How can I comment out a large block of Perl code?
+
+=head2 How do I clear a package?
+
+=head2 How can I use a variable as a variable name?
+
+=head2 What does "bad interpreter" mean?
+
+=head2 Do I need to recompile XS modules when there is a change in the C library?
+
+=end pod

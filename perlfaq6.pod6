@@ -1,0 +1,53 @@
+=begin pod
+
+=head1 Regular Expressions
+
+=head2 How can I hope to use regular expressions without creating illegible and unmaintainable code?
+
+=head2 I'm having trouble matching over more than one line. What's wrong?
+
+=head2 How can I pull out lines between two patterns that are themselves on different lines?
+
+=head2 How do I match XML, HTML, or other nasty, ugly things with a regex?
+
+=head2 I put a regular expression into $/ but it didn't work. What's wrong?
+
+=head2 How do I substitute case-insensitively on the LHS while preserving case on the RHS?
+
+=head2 How can I make C<\w> match national character sets?
+
+=head2 How can I match a locale-smart version of C</[a-zA-Z]/>?
+
+=head2 How can I quote a variable to use in a regex?
+
+=head2 What is C</o> really for?
+
+=head2 How do I use a regular expression to strip C-style comments from a file?
+
+=head2 Can I use Perl regular expressions to match balanced text?
+
+=head2 What does it mean that regexes are greedy? How can I get around it?
+
+=head2 How do I process each word on each line?
+
+=head2 How can I print out a word-frequency or line-frequency summary?
+
+=head2 How can I do approximate matching?
+
+=head2 How do I efficiently match many regular expressions at once?
+
+=head2 Why don't word-boundary searches with C<\b> work for me?
+
+=head2 Why does using $&, $`, or $' slow my program down?
+
+=head2 What good is C<\G> in a regular expression?
+
+=head2 Are Perl regexes DFAs or NFAs? Are they POSIX compliant?
+
+=head2 What's wrong with using grep in a void context?
+
+=head2 How can I match strings with multibyte characters?
+
+=head2 How do I match a regular expression that's in a variable?
+
+=end pod

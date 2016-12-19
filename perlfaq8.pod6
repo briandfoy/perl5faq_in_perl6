@@ -1,0 +1,107 @@
+=begin pod
+
+=head1 System Interaction
+
+=head2 How do I find out which operating system I'm running under?
+
+=head2 How come exec() doesn't return?
+
+=head2 How do I do fancy stuff with the keyboard/screen/mouse?
+
+=head2 How do I print something out in color?
+
+=head2 How do I read just one key without waiting for a return key?
+
+=head2 How do I check whether input is ready on the keyboard?
+
+=head2 How do I clear the screen?
+
+=head2 How do I get the screen size?
+
+=head2 How do I ask the user for a password?
+
+=head2 How do I read and write the serial port?
+
+=head2 How do I decode encrypted password files?
+
+=head2 How do I start a process in the background?
+
+=head2 How do I trap control characters/signals?
+
+=head2 How do I modify the shadow password file on a Unix system?
+
+=head2 How do I set the time and date?
+
+=head2 How can I sleep() or alarm() for under a second?
+
+=head2 How can I measure time under a second?
+
+=head2 How can I do an atexit() or setjmp()/longjmp()? (Exception handling)
+
+=head2 Why doesn't my sockets program work under System V (Solaris)? What does the error message "Protocol not supported" mean?
+
+=head2 How can I call my system's unique C functions from Perl?
+
+=head2 Where do I get the include files to do ioctl() or syscall()?
+
+=head2 Why do setuid perl scripts complain about kernel problems?
+
+=head2 How can I open a pipe both to and from a command?
+
+=head2 Why can't I get the output of a command with system()?
+
+=head2 How can I capture STDERR from an external command?
+
+=head2 Why doesn't open() return an error when a pipe open fails?
+
+=head2 What's wrong with using backticks in a void context?
+
+=head2 How can I call backticks without shell processing?
+
+=head2 Why can't my script read from STDIN after I gave it EOF (^D on Unix, ^Z on MS-DOS)?
+
+=head2 How can I convert my shell script to perl?
+
+=head2 Can I use perl to run a telnet or ftp session?
+
+=head2 How can I write expect in Perl?
+
+=head2 Is there a way to hide perl's command line from programs such as "ps"?
+
+=head2 I {changed directory, modified my environment} in a perl script. How come the change disappeared when I exited the script? How do I get my changes to be visible?
+
+=head2 How do I close a process's filehandle without waiting for it to complete?
+
+=head2 How do I fork a daemon process?
+
+=head2 How do I find out if I'm running interactively or not?
+
+=head2 How do I timeout a slow event?
+
+=head2 How do I set CPU limits?
+
+=head2 How do I avoid zombies on a Unix system?
+
+=head2 How do I use an SQL database?
+
+=head2 How do I make a system() exit on control-C?
+
+=head2 How do I open a file without blocking?
+
+=head2 How do I tell the difference between errors from the shell and perl?
+
+=head2 How do I install a module from CPAN?
+
+=head2 What's the difference between require and use?
+
+=head2 How do I keep my own module/library directory?
+
+=head2 How do I add the directory my program lives in to the module/library search path?
+
+=head2 How do I add a directory to my include path (@INC) at runtime?
+
+=head2 Where are modules installed?
+
+=head2 What is socket.ph and where do I get it?
+
+=end pod

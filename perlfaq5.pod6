@@ -1,0 +1,89 @@
+=begin pod
+
+=head1 Files and Formats
+
+=head2 How do I flush/unbuffer an output filehandle? Why must I do this?
+
+=head2 How do I change, delete, or insert a line in a file, or append to the beginning of a file?
+
+=head2 How do I count the number of lines in a file?
+
+=head2 How do I delete the last N lines from a file?
+
+=head2 How can I use Perl's C<-i> option from within a program?
+
+=head2 How can I copy a file?
+
+=head2 How do I make a temporary file name?
+
+=head2 How can I manipulate fixed-record-length files?
+
+=head2 How can I make a filehandle local to a subroutine? How do I pass filehandles between subroutines? How do I make an array of filehandles?
+
+=head2 How can I use a filehandle indirectly?
+
+=head2 How can I set up a footer format to be used with write()?
+
+=head2 How can I write() into a string?
+
+=head2 How can I open a filehandle to a string?
+
+=head2 How can I output my numbers with commas added?
+
+=head2 How can I translate tildes (~) in a filename?
+
+=head2 How come when I open a file read-write it wipes it out?
+
+=head2 Why do I sometimes get an "Argument list too long" when I use E<lt>*E<gt>?
+
+=head2 How can I open a file with a leading ">" or trailing blanks?
+
+=head2 How can I reliably rename a file?
+
+=head2 How can I lock a file?
+
+=head2 Why can't I just open(FH, "E<gt>file.lock")?
+
+=head2 I still don't get locking. I just want to increment the number in the file. How can I do this?
+
+=head2 All I want to do is append a small amount of text to the end of a file. Do I still have to use locking?
+
+=head2 How do I randomly update a binary file?
+
+=head2 How do I get a file's timestamp in perl?
+
+=head2 How do I set a file's timestamp in perl?
+
+=head2 How do I print to more than one file at once?
+
+=head2 How can I read in an entire file all at once?
+
+=head2 How can I read in a file by paragraphs?
+
+=head2 How can I read a single character from a file? From the keyboard?
+
+=head2 How can I tell whether there's a character waiting on a filehandle?
+
+=head2 How do I do a C<tail -f> in perl?
+
+=head2 How do I dup() a filehandle in Perl?
+
+=head2 How do I close a file descriptor by number?
+
+=head2 Why can't I use "C:\temp\foo" in DOS paths? Why doesn't `C:\temp\foo.exe` work?
+
+=head2 Why doesn't glob("*.*") get all the files?
+
+=head2 Why does Perl let me delete read-only files? Why does C<-i> clobber protected files? Isn't this a bug in Perl?
+
+=head2 How do I select a random line from a file?
+
+=head2 Why do I get weird spaces when I print an array of lines?
+
+=head2 How do I traverse a directory tree?
+
+=head2 How do I delete a directory tree?
+
+=head2 How do I copy an entire directory?
+
+=end pod

@@ -1,0 +1,47 @@
+=begin pod
+
+=head1 Web, Email and Networking
+
+=head2 Should I use a web framework?
+
+=head2 Which web framework should I use?
+
+=head2 What is Plack and PSGI?
+
+=head2 How do I remove HTML from a string?
+
+=head2 How do I extract URLs?
+
+=head2 How do I fetch an HTML file?
+
+=head2 How do I automate an HTML form submission?
+
+=head2 How do I decode or create those %-encodings on the web?
+
+=head2 How do I redirect to another page?
+
+=head2 How do I put a password on my web pages?
+
+=head2 How do I make sure users can't enter values into a form that causes my CGI script to do bad things?
+
+=head2 How do I parse a mail header?
+
+=head2 How do I check a valid mail address?
+
+=head2 How do I decode a MIME/BASE64 string?
+
+=head2 How do I find the user's mail address?
+
+=head2 How do I send email?
+
+=head2 How do I use MIME to make an attachment to a mail message?
+
+=head2 How do I read email?
+
+=head2 How do I find out my hostname, domainname, or IP address?
+
+=head2 How do I fetch/put an (S)FTP file?
+
+=head2 How can I do RPC in Perl?
+
+=end pod
