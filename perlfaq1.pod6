@@ -96,6 +96,19 @@ that decision depends on which things are important to you.
 
 =head2 When shouldn't I program in Perl 6?
 
+This answer depends on what's important to you and what you don't want
+to give up. Perl 6 is still finding its legs, so you'll have to give
+up a bit more care and effort compared to established languages.
+
+If your program is already working in some other language, you don't
+need to spend the time to make new bugs in another language. That's
+good advice no matter the target language.
+
+If you are developing medical equipment, avionics, or nuclear power
+production controls, you probably want something else. And, you
+probably already know that. That's caution is not special to Perl 6
+though.
+
 =head2 What's the difference between "perl6" and "Perl 6"?
 
 It's a bit pedantic, but B<perl6> is the program and "Perl 6" is the
