@@ -26,7 +26,27 @@ of MOAR (http://www.moarvm.org) or the JVM.
 
 =head2 What are Perl 4, Perl 5, or Perl 6?
 
+Perl 4 was the version of the language that made Perl popular, back in
+the 1990s.
+
+Perl 5 was a complete rewrite that added modules, references, objects,
+and eventually Unicode support. It's still currently developed and
+supported. This is the version that most of the world still uses in
+production.
+
+Perl 6 was initially intended to be a Perl 5 replacement, landing
+after Perl 5.6 or 5.8. But, Perl 5 development accelerated at the same
+time. Now both are available. Perl 6 is a meta-object-based language
+with Unicode at its core (rather than bolted on). It looks a little
+like Perl 5, but has gone far beyond its ideas. "To Infinity and
+Beyond!"
+
 =head2 What is Perl 6?
+
+This question is a placeholder. In the perlfaq, the first question in this
+document was "What is Perl?", assuming Perl 5. In this translated version,
+that moved to "What is Perl 6?". We leave this one here to preserve the
+positions in this document.
 
 =head2 How stable is Perl 6?
 
@@ -43,6 +63,21 @@ of MOAR (http://www.moarvm.org) or the JVM.
 =head2 What's the difference between "perl6" and "Perl 6"?
 
 =head2 What is a JAPH?
+This question is a placeholder. In the perlfaq, the first question in this
+document was "What is Perl?", assuming Perl 5. In this translated version,
+that moved to "What is Perl 6?". We leave this one here to preserve the
+positions in this document.
+
+This question is a placeholder. In the perlfaq, the first question in this
+document was "What is Perl?", assuming Perl 5. In this translated version,
+that moved to "What is Perl 6?". We leave this one here to preserve the
+positions in this document.
+
+This question is a placeholder. In the perlfaq, the first question in this
+document was "What is Perl?", assuming Perl 5. In this translated version,
+that moved to "What is Perl 6?". We leave this one here to preserve the
+positions in this document.
+
 
 =head2 How can I convince others to use Perl 6?
 
