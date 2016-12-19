@@ -62,9 +62,14 @@ modules or tools, comes out at least quarterly.
 
 =head2 Can I do [task] in Perl 6?
 
-=head2 When shouldn't I program in Perl 6?
+Yes, except when you can't. Perl 6 is a high-level language with quite
+a bit of flexibility. If you can't do it in pure Perl 6, you can load
+foreign libraries from other languages, or native libraries from your
+system, to get things done. This puts almost any task within reach.
 
-=head2 What's the difference between "perl6" and "Perl 6"?
+That doesn't mean you should do it in Perl 6 just because you can.
+There might be other ways that are easier or faster, but how you make
+that decision depends on which things are important to you.
 
 =head2 What is a JAPH?
 This question is a placeholder. In the perlfaq, the first question in this
