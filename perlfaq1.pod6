@@ -65,6 +65,10 @@ modules or tools, comes out at least quarterly.
 
 =head2 Is Perl 6 difficult to learn?
 
+It's not the easiest language to learn, but there's many powerful
+features that make it worth the time. We're trying to make it easier to
+learn.
+
 =head2 How does Perl 6 compare with other languages like Java, Python, REXX, Scheme, or Tcl?
 
 =head2 Can I do [task] in Perl 6?
