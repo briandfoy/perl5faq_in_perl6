@@ -52,6 +52,10 @@ positions in this document.
 
 =head2 How often are new versions of Perl 6 released?
 
+That depends on the implementation. The Rakudo compiler is released monthly
+while Rakudo Star, the enhanced distribution with the compilar and extra
+modules or tools, comes out at least quarterly.
+
 =head2 Is Perl 6 difficult to learn?
 
 =head2 How does Perl 6 compare with other languages like Java, Python, REXX, Scheme, or Tcl?
