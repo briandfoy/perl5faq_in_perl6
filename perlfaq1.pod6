@@ -50,6 +50,13 @@ positions in this document.
 
 =head2 How stable is Perl 6?
 
+Perl 6 had its "Christmas release" in 2015. It's available for use, and
+aside from minor bits, it's a mostly unchanging language. You may not want
+to bet the farm on it yet.
+
+The Perl 6 team has followed a strategy of getting things right and
+making them faster later.
+
 =head2 How often are new versions of Perl 6 released?
 
 That depends on the implementation. The Rakudo compiler is released monthly
