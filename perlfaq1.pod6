@@ -4,6 +4,13 @@
 
 =head2 What is Perl 6?
 
+Perl 6 is a high-level, multi-paradigmic programming language. It
+steals from Perl 5, Ruby, and several other languages. It's
+object-oriented at its core, although that's not always apparent in
+the program syntax. It supports concurrency, distributed programming,
+grammars, mutable syntax, and many other advanced features. It can
+load libraries from other languages and native libraries.
+
 =head2 Who supports Perl 6? Who develops it? Why is it free?
 
 =head2 Which version of Perl 6 should I use?
