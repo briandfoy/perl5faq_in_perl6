@@ -15,6 +15,15 @@ load libraries from other languages and native libraries.
 
 =head2 Which version of Perl 6 should I use?
 
+The latest version! Perl 6 is in rapid development and is still evolving
+in subtle ways.
+
+But, you're probably wondering about what to pay attention to. Perl 6 is a
+specification and can have many implementations. Unless you know which one
+you want to play with (in which case you don't have this question), you
+probably want Rakudo (http://www.rakudo.org), the implementation on top
+of MOAR (http://www.moarvm.org) or the JVM.
+
 =head2 What are Perl 4, Perl 5, or Perl 6?
 
 =head2 What is Perl 6?
