@@ -49,6 +49,16 @@ are working on that
 
 =head2 Where can I get information on Perl 6?
 
+Start at L<http://www.perl6.org>.
+
+=item Modules - L<http://modules.perl6.org>
+
+=item Documentation - L<http://docs.perl6.org>
+
+=item Design - L<http://design.perl6.org>
+
+=item IRC - #perl6 on irc.freenode.net
+
 =head2 What is perl.com? Perl Mongers? pm.org? perl.org? cpan.org?
 
 =head2 Where can I post questions?
