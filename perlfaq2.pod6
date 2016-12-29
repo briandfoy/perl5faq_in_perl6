@@ -16,6 +16,23 @@ Download binary installers from L<http://www.rakudo.org>.
 
 =head2 What modules and extensions are available for Perl 6? What is CPAN?
 
+See L<http://modules.perl6.org> for a list of modules.
+
+The B<panda> module tool (L<https://github.com/tadzik/panda>) can list
+all of the registered Perl 6 modules:
+
+	$ panda list
+
+The B<zef> module tool (L<https://github.com/ugexe/zef> does the same
+thing:
+
+	$ zef list
+
+CPAN (L<http://www.cpan.org>) is the Comprehensive Perl Archive
+Network. It's not compatible with the expanded Perl 6 module
+authorities (combinations of source, author, and version), but people
+are working on that
+
 =head2 Where can I get information on Perl 6?
 
 =head2 What is perl.com? Perl Mongers? pm.org? perl.org? cpan.org?
