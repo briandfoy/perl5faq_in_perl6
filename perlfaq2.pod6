@@ -4,6 +4,11 @@
 
 =head2 What machines support Perl 6? Where do I get it?
 
+Get Rakudo Perl 6 from L<http://www.rakudo.org>. There are other
+implementations, but Rakudo is the most complete. Any machine which can
+run one of the backends (MoarVM or JVM) should be able to run Perl 6
+programs.
+
 =head2 How can I get a binary version of Perl 6?
 
 Download binary installers from L<http://www.rakudo.org>.
