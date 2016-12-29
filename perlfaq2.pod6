@@ -32,6 +32,8 @@ Download binary installers from L<http://www.rakudo.org>.
 
 =head2 Where can I buy a commercial version of Perl 6?
 
+There is no commercially supported version of Perl 6 (yet).
+
 =head2 Where do I send bug reports?
 
 =end pod
