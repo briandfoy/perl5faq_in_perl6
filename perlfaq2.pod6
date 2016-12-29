@@ -1,6 +1,6 @@
 =begin pod
 
-=head1 Obtaining and Learning about Perl
+=head1 Obtaining and Learning about Perl 6
 
 =head2 What machines support Perl 6? Where do I get it?
 
