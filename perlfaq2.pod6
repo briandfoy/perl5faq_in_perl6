@@ -10,6 +10,15 @@ Download binary installers from L<http://www.rakudo.org>.
 
 =head2 I don't have a C compiler. How can I build my own Perl 6 interpreter?
 
+Get a C compiler. That seems flippant, but this question came out of an
+era when things weren't that simple. Now it's easy.
+
+TODO: Simple instructions for each system
+
+For the Mac, install XCode or the command-line tools
+(L<https://developer.apple.com/xcode/features/>). These are available
+from the App Store or direct download.
+
 =head2 I copied the Perl 6 binary from one machine to another, but scripts don't work.
 
 =head2 I grabbed the sources and tried to compile but gdbm/dynamic loading/malloc/linking/... failed. How do I make it work?
