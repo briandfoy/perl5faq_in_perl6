@@ -36,4 +36,12 @@ There is no commercially supported version of Perl 6 (yet).
 
 =head2 Where do I send bug reports?
 
+This depends on which implementation you are using.
+
+=over 4
+
+=item * Rakudo - L<mailto:rakudobug@perl.org>
+
+=back
+
 =end pod
