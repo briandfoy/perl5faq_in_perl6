@@ -1,8 +1,8 @@
 =begin pod
 
-=head1 General Perl Language Issues
+=head1 General Perl 6 Language Issues
 
-=head2 Can I get a BNF/yacc/RE for the Perl language?
+=head2 Can I get a BNF/yacc/RE for the Perl 6 language?
 
 =head2 What are all these $@%&* punctuation signs, and how do I know when to use them?
 
@@ -14,7 +14,7 @@
 
 =head2 What's an extension?
 
-=head2 Why do Perl operators have different precedence than C operators?
+=head2 Why do Perl 6 operators have different precedence than C operators?
 
 =head2 How do I declare/create a structure?
 
@@ -54,7 +54,7 @@
 
 =head2 How can I find out my current or calling package?
 
-=head2 How can I comment out a large block of Perl code?
+=head2 How can I comment out a large block of Perl 6 code?
 
 =head2 How do I clear a package?
 

@@ -10,7 +10,7 @@
 
 =head2 How do I delete the last N lines from a file?
 
-=head2 How can I use Perl's C<-i> option from within a program?
+=head2 How can I use Perl 6's C<-i> option from within a program?
 
 =head2 How can I copy a file?
 
@@ -50,9 +50,9 @@
 
 =head2 How do I randomly update a binary file?
 
-=head2 How do I get a file's timestamp in perl?
+=head2 How do I get a file's timestamp in Perl 6?
 
-=head2 How do I set a file's timestamp in perl?
+=head2 How do I set a file's timestamp in Perl 6?
 
 =head2 How do I print to more than one file at once?
 
@@ -64,9 +64,9 @@
 
 =head2 How can I tell whether there's a character waiting on a filehandle?
 
-=head2 How do I do a C<tail -f> in perl?
+=head2 How do I do a C<tail -f> in Perl 6?
 
-=head2 How do I dup() a filehandle in Perl?
+=head2 How do I dup() a filehandle in Perl 6?
 
 =head2 How do I close a file descriptor by number?
 
@@ -74,7 +74,7 @@
 
 =head2 Why doesn't glob("*.*") get all the files?
 
-=head2 Why does Perl let me delete read-only files? Why does C<-i> clobber protected files? Isn't this a bug in Perl?
+=head2 Why does Perl 6 let me delete read-only files? Why does C<-i> clobber protected files? Isn't this a bug in Perl 6?
 
 =head2 How do I select a random line from a file?
 

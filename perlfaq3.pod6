@@ -4,31 +4,31 @@
 
 =head2 How do I do (anything)?
 
-=head2 How can I use Perl interactively?
+=head2 How can I use Perl 6 interactively?
 
 =head2 How do I find which modules are installed on my system?
 
-=head2 How do I debug my Perl programs?
+=head2 How do I debug my Perl 6 programs?
 
-=head2 How do I profile my Perl programs?
+=head2 How do I profile my Perl 6 programs?
 
-=head2 How do I cross-reference my Perl programs?
+=head2 How do I cross-reference my Perl 6 programs?
 
-=head2 Is there a pretty-printer (formatter) for Perl?
+=head2 Is there a pretty-printer (formatter) for Perl 6?
 
-=head2 Is there an IDE or Windows Perl Editor?
+=head2 Is there an IDE or Windows Perl 6 Editor?
 
-=head2 Where can I get Perl macros for vi?
+=head2 Where can I get Perl 6 macros for vi?
 
-=head2 Where can I get perl-mode or cperl-mode for emacs?
+=head2 Where can I get perl6-mode or cperl6-mode for emacs?
 
-=head2 How can I use curses with Perl?
+=head2 How can I use curses with Perl 6?
 
-=head2 How can I write a GUI (X, Tk, Gtk, etc.) in Perl?
+=head2 How can I write a GUI (X, Tk, Gtk, etc.) in Perl 6?
 
-=head2 How can I make my Perl program run faster?
+=head2 How can I make my Perl 6 program run faster?
 
-=head2 How can I make my Perl program take less memory?
+=head2 How can I make my Perl 6 program take less memory?
 
 =head2 Is it safe to return a reference to local or lexical data?
 
@@ -36,21 +36,21 @@
 
 =head2 How can I make my CGI script more efficient?
 
-=head2 How can I hide the source for my Perl program?
+=head2 How can I hide the source for my Perl 6 program?
 
-=head2 How can I compile my Perl program into byte code or C?
+=head2 How can I compile my Perl 6 program into byte code or C?
 
-=head2 How can I get C<#!perl> to work on [MS-DOS,NT,...]?
+=head2 How can I get C<#!perl6> to work on [MS-DOS,NT,...]?
 
-=head2 Can I write useful Perl programs on the command line?
+=head2 Can I write useful Perl 6 programs on the command line?
 
-=head2 Why don't Perl one-liners work on my DOS/Mac/VMS system?
+=head2 Why don't Perl 6 one-liners work on my DOS/Mac/VMS system?
 
-=head2 Where can I learn about CGI or Web programming in Perl?
+=head2 Where can I learn about CGI or Web programming in Perl 6?
 
 =head2 Where can I learn about object-oriented Perl programming?
 
-=head2 Where can I learn about linking C with Perl?
+=head2 Where can I learn about linking C with Perl 6?
 
 =head2 I've read perlembed, perlguts, etc., but I can't embed perl in my C program; what am I doing wrong?
 

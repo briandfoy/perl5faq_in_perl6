@@ -8,7 +8,7 @@
 
 =head2 Why isn't my octal data interpreted correctly?
 
-=head2 Does Perl have a round() function? What about ceil() and floor()? Trig functions?
+=head2 Does Perl 6 have a round() function? What about ceil() and floor()? Trig functions?
 
 =head2 How do I convert between numeric representations/bases/radixes?
 
@@ -36,7 +36,7 @@
 
 =head2 How do I find yesterday's date?
 
-=head2 Does Perl have a Year 2000 or 2038 problem? Is Perl Y2K compliant?
+=head2 Does Perl 6 have a Year 2000 or 2038 problem? Is Perl 6 Y2K compliant?
 
 =head2 How do I validate input?
 
@@ -138,7 +138,7 @@
 
 =head2 Why does passing a subroutine an undefined element in a hash create it?
 
-=head2 How can I make the Perl equivalent of a C structure/C++ class/hash or array of hashes or arrays?
+=head2 How can I make the Perl 6 equivalent of a C structure/C++ class/hash or array of hashes or arrays?
 
 =head2 How can I use a reference as a hash key?
 

@@ -1,6 +1,6 @@
 =begin pod
 
-=head1 General Questions About Perl
+=head1 General Questions About Perl 6
 
 =head2 What is Perl 6?
 
@@ -130,7 +130,7 @@ not a thing in Perl 6.
 Randal Schwartz used to sign email and usenet messages starting
 in the late 1980s. He previously used the phrase with many subjects
 ("Just another x hacker,"), so to distinguish his JAPH, he started to
-write them as Perl programs:
+write them as Perl 5 programs:
 
     print "Just another Perl hacker,";
 

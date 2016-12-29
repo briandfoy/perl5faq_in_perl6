@@ -42,6 +42,6 @@
 
 =head2 How do I fetch/put an (S)FTP file?
 
-=head2 How can I do RPC in Perl?
+=head2 How can I do RPC in Perl 6?
 
 =end pod

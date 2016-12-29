@@ -24,7 +24,7 @@
 
 =head2 How do I use a regular expression to strip C-style comments from a file?
 
-=head2 Can I use Perl regular expressions to match balanced text?
+=head2 Can I use Perl 6 regular expressions to match balanced text?
 
 =head2 What does it mean that regexes are greedy? How can I get around it?
 
@@ -42,7 +42,7 @@
 
 =head2 What good is C<\G> in a regular expression?
 
-=head2 Are Perl regexes DFAs or NFAs? Are they POSIX compliant?
+=head2 Are Perl 6 regexes DFAs or NFAs? Are they POSIX compliant?
 
 =head2 What's wrong with using grep in a void context?
 

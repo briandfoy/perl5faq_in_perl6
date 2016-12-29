@@ -40,7 +40,7 @@
 
 =head2 Why doesn't my sockets program work under System V (Solaris)? What does the error message "Protocol not supported" mean?
 
-=head2 How can I call my system's unique C functions from Perl?
+=head2 How can I call my system's unique C functions from Perl 6?
 
 =head2 Where do I get the include files to do ioctl() or syscall()?
 
@@ -60,15 +60,15 @@
 
 =head2 Why can't my script read from STDIN after I gave it EOF (^D on Unix, ^Z on MS-DOS)?
 
-=head2 How can I convert my shell script to perl?
+=head2 How can I convert my shell script to Perl 6?
 
-=head2 Can I use perl to run a telnet or ftp session?
+=head2 Can I use Perl 6 to run a telnet or ftp session?
 
-=head2 How can I write expect in Perl?
+=head2 How can I write expect in Perl 6?
 
-=head2 Is there a way to hide perl's command line from programs such as "ps"?
+=head2 Is there a way to hide Perl 6's command line from programs such as "ps"?
 
-=head2 I {changed directory, modified my environment} in a perl script. How come the change disappeared when I exited the script? How do I get my changes to be visible?
+=head2 I {changed directory, modified my environment} in a Perl script. How come the change disappeared when I exited the script? How do I get my changes to be visible?
 
 =head2 How do I close a process's filehandle without waiting for it to complete?
 
@@ -88,7 +88,7 @@
 
 =head2 How do I open a file without blocking?
 
-=head2 How do I tell the difference between errors from the shell and perl?
+=head2 How do I tell the difference between errors from the shell and Perl 6?
 
 =head2 How do I install a module from CPAN?
 
