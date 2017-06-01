@@ -3,6 +3,16 @@
 =head1 Data Manipulation
 
 =head2 Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?
+=head3 How do I find the current century or millennium?
+
+The L<Date.year> method will give you the year, which you can then manipulate that:
+
+	(Date.today.year / 100 ).Int   # century
+
+	(Date.today.year / 1000 ).Int   # millennium
+
+If you'd like to include the year 2000 in the 20th century, that's going to be more work that you'll have to do yourself.
+
 
 =head2 Why is int() broken?
 
