@@ -3,6 +3,25 @@
 =head1 Data Manipulation
 
 =head2 Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?
+=head3 Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?
+
+This should be a rare problem in Perl 6. You normally see this when you rely on the native (binary) storage to represent a floating point number exactly.
+
+Perl 6, however, delays floating point representations until as late as possible. It stores fractional numbers as the numerator and demoninator in the C<Rat> type:
+
+	my $fraction = 1/137;
+	put $fraction.^name;        # Rat
+	put $fraction.numerator;    # 1
+	put $fraction.denominator;  # 137
+
+When you add to the C<Rat>, it adds fractions (possibly reducing them). The value remain exact within the precision of the numerator or denominator:
+
+	$fraction += 5/9;
+	put $fraction.numerator;    #  649
+	put $fraction.denominator;  # 1233
+
+If you need more precision, there's a C<FatRat> type.
+
 =head3 How do I find the current century or millennium?
 
 The L<Date.year> method will give you the year, which you can then manipulate that:
