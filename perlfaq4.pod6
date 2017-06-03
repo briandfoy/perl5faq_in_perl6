@@ -22,6 +22,10 @@ When you add to the C<Rat>, it adds fractions (possibly reducing them). The valu
 
 If you need more precision, there's a C<FatRat> type.
 
+=head3 Why is C<.Int> broken?
+
+Most people think an integer method is broken because they give it imprecise numbers with rounding errors. Perl 6 generally does not have this problem. See "Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?"
+
 =head3 How do I find the current century or millennium?
 
 The L<Date.year> method will give you the year, which you can then manipulate that:
