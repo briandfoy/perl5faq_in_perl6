@@ -62,6 +62,24 @@ For either version, you can give C<round> a precision:
 
 	<1/137>.round: 1e-4; # 0.0073
 
+=head3 How do I convert between numeric representations/bases/radixes?
+
+If you have a number as a string and you want to turn it into a number, use C<.parse-base> with the radix you want:
+
+	put "777".parse-base: 8;        # 511
+	put "DEADBEEF".parse-base: 16;  # 3735928559
+	put "1011011".parse-base: 2;    # 91
+
+If you want to represent a number as a string in a certain base, use C<.base>:
+
+	put 511.base: 8;          # "777"
+	put 3735928559.base: 16;  # "DEADBEEF"
+	put 91.base: 2;           # "1011011"
+
+You might have to do both to get there:
+
+	"777".parse-base(8).base: 3;  # 200221
+
 =head3 How do I find the current century or millennium?
 
 The L<Date.year> method will give you the year, which you can then manipulate that:
