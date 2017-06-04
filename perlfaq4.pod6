@@ -26,6 +26,42 @@ If you need more precision, there's a C<FatRat> type.
 
 Most people think an integer method is broken because they give it imprecise numbers with rounding errors. Perl 6 generally does not have this problem. See "Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?"
 
+=head3 Does Perl 6 have a C<round()> function? What about C<ceil()> and C<floor()>? Trig functions?
+
+The L<round>, L<ceiling>, and L<floor> methods are in the L<Real> role (for those sorts of numbers) or in the L<Complex> class (for those numbers). You don't have to worry about what sort of number you have.
+
+The L<Real.floor|> method returns the next lower integer. For negative numbers, the I<magnitude> of the number is actually I<lower>:
+
+	( 1.5).floor   #  1
+	(-1.5).floor   # -2
+	<3/2>.floor    #  1
+
+The L<Complex.floor|> method returns the next lower integer for both the real and imaginary parts separately:
+
+	(1.2+8.2i).ceiling # 1+8i
+
+The L<Real.ceiling|> method returns the next higher integer. For negative numbers, the I<magnitude> of the number is actually I<lower>:
+
+	( 1.5).ceiling #  2
+	(-1.5).ceiling # -1
+
+The L<Complex.floor|> method returns the next higher integer for both the real and imaginary parts separately:
+
+	(1.2+8.2i).ceiling # 2+9i
+
+The L<round> method returns the closest integer (although that may not be what you need for sophisticated applications):
+
+	(1.4).round      # 1
+	<3/2>.round      # 2
+
+The L<Complex.round|> method separately rounds the real and imaginary parts:
+
+	(1.5-8.2i).round # 2-8i
+
+For either version, you can give C<round> a precision:
+
+	<1/137>.round: 1e-4; # 0.0073
+
 =head3 How do I find the current century or millennium?
 
 The L<Date.year> method will give you the year, which you can then manipulate that:
