@@ -1,5 +1,6 @@
 =begin pod
 
+These questions come from the Perl 5 FAQ, but have Perl 6 answers. Often, the solutions in Perl 6 are much simpler because the Perl 5 way wasn't simple.
 =head1 Data Manipulation
 
 =head2 Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?
