@@ -80,6 +80,20 @@ You might have to do both to get there:
 
 	"777".parse-base(8).base: 3;  # 200221
 
+=head3 Why doesn't & work the way I want it to?
+
+If you're thinking about bit operators, then you're reading the right answer. In Perl 6, the C<&> is a junctive operator for C<all()> and not a bit operator:
+
+	my $not-a-bit-mask = 1 & 3 & 7;
+	put $not-a-bit-mask.perl;   # all( 1, 3, 7 )
+
+The AND bitwise operator is now C<+&>:
+
+	my $bit-mask = 0b1111_0101 +& 0b1010_0000;
+	put $bit-mask.base: 2;      # 10100000
+
+The OR bitwise operator is C<+|> and the XOR bitwise operator is C<+^>.
+
 =head3 How do I find the current century or millennium?
 
 The L<Date.year> method will give you the year, which you can then manipulate that:
