@@ -1,9 +1,11 @@
 =begin pod
 
 These questions come from the Perl 5 FAQ, but have Perl 6 answers. Often, the solutions in Perl 6 are much simpler because the Perl 5 way wasn't simple.
+
 =head1 Data Manipulation
 
-=head2 Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?
+=head2 Numbers
+
 =head3 Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?
 
 This should be a rare problem in Perl 6. You normally see this when you rely on the native (binary) storage to represent a floating point number exactly.
@@ -26,6 +28,8 @@ If you need more precision, there's a C<FatRat> type.
 =head3 Why is C<.Int> broken?
 
 Most people think an integer method is broken because they give it imprecise numbers with rounding errors. Perl 6 generally does not have this problem. See "Why am I getting long decimals (eg, 19.9499999999999) instead of the numbers I should be getting (eg, 19.95)?"
+
+=head3 Why isn't my octal data interpreted correctly?
 
 =head3 Does Perl 6 have a C<round()> function? What about C<ceil()> and C<floor()>? Trig functions?
 
@@ -95,6 +99,15 @@ The AND bitwise operator is now C<+&>:
 
 The OR bitwise operator is C<+|> and the XOR bitwise operator is C<+^>.
 
+=head3 How do I multiply matrices?
+
+=head3 How do I perform an operation on a series of integers?
+
+
+=head3 How can I output Roman numerals?
+
+=head3 Why aren't my random numbers random?
+
 =head3 How do I find the current century or millennium?
 
 The L<Date.year> method will give you the year, which you can then manipulate that:
@@ -104,6 +117,52 @@ The L<Date.year> method will give you the year, which you can then manipulate th
 	(Date.today.year / 1000 ).Int   # millennium
 
 If you'd like to include the year 2000 in the 20th century, that's going to be more work that you'll have to do yourself.
+
+=head3 How can I compare two dates and find the difference?
+
+=head3 How can I take a string and turn it into epoch seconds?
+
+=head3 How can I find the Julian Day?
+
+=head2 Strings
+
+=head3 How do I validate input?
+
+=head3 How do I unescape a string?
+
+=head3 How do I remove consecutive pairs of characters?
+
+=head3 How do I find matching/nesting anything?
+
+=head3 How do I expand tabs in a string?
+
+=head3 How do I reformat a paragraph?
+
+=head3 How can I access or change N characters of a string?
+
+=head3 How do I change the Nth occurrence of something?
+
+=head3 How can I count the number of occurrences of a substring within a string?
+
+=head3 How do I capitalize all the words on one line?
+
+=head3 How can I split a [character]-delimited string except when inside [character]?
+
+=head3 How do I pad a string with blanks or pad a number with zeroes?
+
+=head3 How do I find the soundex value of a string?
+
+=head3 How can I expand variables in text strings?
+
+=head3 What's wrong with always quoting "$vars"?
+
+=head3 Why don't my C<<< <<HERE >>> documents work?
+
+=head2 Lists and Arrays
+
+=head3 How do I handle linked lists?
+
+=head3 How do I handle circular lists?
 
 
 =head2 Why is int() broken?
@@ -211,6 +270,7 @@ If you'd like to include the year 2000 in the 20th century, that's going to be m
 =head2 How do I manipulate arrays of bits?
 
 =head2 Why does defined() return true on empty arrays and hashes?
+=head2 Hashes
 
 =head2 How do I process an entire hash?
 
@@ -230,7 +290,7 @@ If you'd like to include the year 2000 in the 20th century, that's going to be m
 
 =head2 Why don't my tied hashes make the defined/exists distinction?
 
-=head2 How do I reset an each() operation part-way through?
+=head2 How do I reset an C<each()> operation part-way through?
 
 =head2 How can I get the unique keys from two hashes?
 
