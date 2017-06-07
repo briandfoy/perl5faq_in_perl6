@@ -108,6 +108,15 @@ The OR bitwise operator is C<+|> and the XOR bitwise operator is C<+^>.
 
 =head3 Why aren't my random numbers random?
 
+=head3 How do I get a random number between X and Y?
+
+The L<Real.rand> method returns a number between zero and the number. Get a number between 0 and Y - X, then shift up X:
+
+	my $X =  5;
+	my $Y = 15;
+
+	put $X + ($Y - $X).rand;
+
 =head3 How do I find the current century or millennium?
 
 The L<Date.year> method will give you the year, which you can then manipulate that:
