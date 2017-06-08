@@ -117,6 +117,10 @@ The L<Real.rand> method returns a number between zero and the number. Get a numb
 
 	put $X + ($Y - $X).rand;
 
+=head2 Dates
+
+Most things that you want to do have methods in the L<Date> or L<DateTime> classes.
+
 =head3 How do I find the current century or millennium?
 
 The L<Date.year> method will give you the year, which you can then manipulate that:
