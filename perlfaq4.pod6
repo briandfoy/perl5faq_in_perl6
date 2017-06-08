@@ -121,6 +121,16 @@ The L<Real.rand> method returns a number between zero and the number. Get a numb
 
 Most things that you want to do have methods in the L<Date> or L<DateTime> classes.
 
+=head3 How do I find the day or week of the year?
+
+Use the C<Date.day-of-year> method:
+
+	Date.today.day-of-year
+
+the week of the year is a bit trickier because the current week might belong to the previous year. The C<Date.week> method returns the year of the week and the week number:
+
+	my ( $year, $week ) = Date.today.week;
+
 =head3 How do I find the current century or millennium?
 
 The L<Date.year> method will give you the year, which you can then manipulate that:
