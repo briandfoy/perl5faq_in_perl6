@@ -147,6 +147,15 @@ If you'd like to include the year 2000 in the 20th century, that's going to be m
 
 =head3 How can I find the Julian Day?
 
+=head3 How do I find yesterday's date?
+
+Use the C<Date.earlier> method to substract a time unit (in this case, a C<day>):
+
+	Date.today.earlier( :1day )
+	Date.today.earlier( day => 1 )   # same thing
+
+There's also a C<Date.later> method to go in the other direction.
+
 =head2 Strings
 
 =head3 How do I validate input?
