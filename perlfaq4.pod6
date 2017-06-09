@@ -156,6 +156,23 @@ Use the C<Date.earlier> method to substract a time unit (in this case, a C<day>)
 
 There's also a C<Date.later> method to go in the other direction.
 
+=head3 Does Perl 6 have a Year 2000 or 2038 problem? Is Perl 6 Y2K compliant?
+
+Perl 6 is Y2K compliant. You might write a program that has a Y2K problem because you represent a year with two decimal digits, but that's not the language's fault. ;)
+
+You can represent a date past 2038:
+
+	my $far-off-date = Date.new: 2039, 12, 18;
+	say $far-off-date;  # 2039-12-18
+
+You can count the offset in days from the start of the Julian Calendar:
+
+	my $date = Date.new-from-daycount: 65_789; # 2039-01-01
+
+You can create an C<Instance> far in the future:
+
+	Instant.from-posix( 2177500000 ).Date;     # 2039-01-01
+
 =head2 Strings
 
 =head3 How do I validate input?
