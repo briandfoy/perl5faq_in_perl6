@@ -183,6 +183,13 @@ You can create an C<Instance> far in the future:
 
 =head3 How do I find matching/nesting anything?
 
+=head3 How do I reverse a string?
+
+Use the C<Str.flip> method:
+
+	"A man, a plan, a canal, Panama".flip;
+		# amanaP ,lanac a ,nalp a ,nam A
+
 =head3 How do I expand tabs in a string?
 
 =head3 How do I reformat a paragraph?
