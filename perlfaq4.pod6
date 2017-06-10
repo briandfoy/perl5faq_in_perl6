@@ -197,6 +197,12 @@ You can create an C<Instance> far in the future:
 
 =head3 How can I split a [character]-delimited string except when inside [character]?
 
+=head3 How do I strip blank space from the beginning/end of a string?
+
+Use the C<Str.trim> method:
+
+	"    Camelia   ".trim;  # 'Camelia'
+
 =head3 How do I pad a string with blanks or pad a number with zeroes?
 
 =head3 How do I find the soundex value of a string?
