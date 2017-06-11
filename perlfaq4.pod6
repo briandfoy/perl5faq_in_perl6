@@ -222,6 +222,10 @@ Use the C<Str.trim> method:
 
 =head2 Lists and Arrays
 
+=head3 What is the difference between a list and an array?
+
+A C<List> is an immutable series of elements. An C<Array> is mutable, can constrain the types of elements, and itemizes each of its elements.
+
 =head3 How do I handle linked lists?
 
 =head3 How do I handle circular lists?
