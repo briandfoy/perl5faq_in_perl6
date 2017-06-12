@@ -226,6 +226,21 @@ Use the C<Str.trim> method:
 
 A C<List> is an immutable series of elements. An C<Array> is mutable, can constrain the types of elements, and itemizes each of its elements.
 
+=head3 How can I tell whether a certain element is contained in a list or array?
+
+Use C<List.first> to find the first matching element. This does not necessarily scan the entire list like C<List.grep> would:
+
+	my @array = < a b c d e f 5 g h i j k >;
+
+	put "Found an Int!" if @array.first: Int;
+
+The matcher argument to C<.first> smart matches against each element of the list until if finds one that matches or it runs out of elements. It returns the element that successfully smart matched:
+
+	my @array = < a b c d e f 5 g h i j k >;
+
+	my $found = @array.first: *.fc gt 'C'.fc;
+	put "Found $found" if $found;
+
 =head3 How do I handle linked lists?
 
 =head3 How do I handle circular lists?
