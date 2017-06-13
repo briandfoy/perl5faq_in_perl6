@@ -245,6 +245,31 @@ The matcher argument to C<.first> smart matches against each element of the list
 
 =head3 How do I handle circular lists?
 
+=head3 How do I shuffle an array randomly?
+
+The L<https://docs.perl6.org/type/List#routine_pick|List.pick> method will do it. It selects the specified number of elements from the list without repetition. Using the L<Whatever> star as the number specifies the number of elements in the list:
+
+	my @array = ^10;
+	my @picked = @array.pick: *;  # * is interpreted as @array.elems
+
+	say "Original: ", @array;
+	say "Picked:   ", @picked;
+
+The output shows that C<@picked> has the same elements in a shuffled order:
+
+	Original: [0 1 2 3 4 5 6 7 8 9]
+	Picked:   [6 9 2 0 3 8 4 7 1 5]
+
+But, here's the L<https://www.rosettacode.org/wiki/Knuth_shuffle|Fisher-Yates Shuffle> just for kicks:
+
+	sub fisher-yates-shuffle ( *@array, *%_ () --> List ) {
+		for @array.keys.reverse -> $i {
+			my $j = ($i+1).rand.Int;
+			@array[$i, $j] = @array[$j, $i];
+			}
+		@array.list;
+		}
+
 
 =head2 Why is int() broken?
 
