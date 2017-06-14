@@ -226,6 +226,26 @@ Use the C<Str.trim> method:
 
 A C<List> is an immutable series of elements. An C<Array> is mutable, can constrain the types of elements, and itemizes each of its elements.
 
+=head3 How can I remove duplicate elements from a list or array?
+
+You can use C<List.unique>:
+
+	my @array = <red green blue red red blue pink grey red>;
+	my @unique = @array.unique;
+	put @unique;
+
+You can modify the array in place:
+
+	my @array = <red green blue red red blue pink grey red>;
+	@array .= unique;  # really @array = @array.unique
+	put @array;
+
+If you want to decide on your own how to compare elements, you can specify a routine with the C<:as> adverb:
+
+	my @array = <red green blue Red red Blue greeN grey red>;
+	my @unique = @array.unique: :as(*.fc);
+	put @unique;
+
 =head3 How can I tell whether a certain element is contained in a list or array?
 
 Use C<List.first> to find the first matching element. This does not necessarily scan the entire list like C<List.grep> would:
