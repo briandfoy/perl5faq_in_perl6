@@ -393,14 +393,25 @@ You can use a hyper operator to call a method on every element:
 	put @array>>.abs;   # also @array».abs, gives 1 3 7
 	put @array>>.=abs;
 
+=head3 How do I select a random element from an array?
 
+The L<https://docs.perl6.org/type/List#routine_pick|List.pick> method will do it. It selects the specified number of elements from the list without repetition. You tell C<.pick> how many elements you want. By default C<.pick> chooses one element:
 
+	my @array = <red green blue>;
+	my $one-element = @array.pick;
 
+	put $one-element;
 
+This will output one of the elements in C<@array>.
 
+You can ask for more than one element:
 
+	my @array = <red green blue>;
+	my @two-elements = @array.pick: 2;
 
+	put @two-elements;
 
+Also see the answer for "How do I shuffle an array randomly?".
 
 =head3 How do I permute N elements of a list?
 
