@@ -484,8 +484,12 @@ The beginning of this outputs looks like:
 
 =head3 How do I manipulate arrays of bits?
 
+=head3 Why does C<.defined> return true on empty arrays and hashes?
 
+Perl 6 distinguishes values from types. A value is always defined while a type is always undefined. An empty list or hash is just a trivial case of a defined value.
 
+	put "Defined!" if List.new.defined;
+	put "Not defined!" unless List.defined;
 
 =head2 Hashes
 
