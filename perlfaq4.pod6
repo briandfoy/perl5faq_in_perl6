@@ -468,19 +468,47 @@ The beginning of this outputs looks like:
 	(0 1 3)
 	...
 
+=head3 How do I sort an array by (anything)?
 
+You can specify a sorting subroutine. Here's one that uses a C<WhateverCode> to sort by the length of the string:
 
+	my @array = <red green blue>;
+	my @lengths = @array.sort: *.chars;
+	say @lengths;
 
+Here's the same thing with a block:
 
+	my @array = <red green blue>;
+	my @lengths = @array.sort: { .chars };
+	say @lengths;
 
+Perhaps you want a dictionary sort that ignores case (notice the use of C<.fc> instead of C<.lc>:
 
+	my @array = <Red green Blue>;
+	my @caseless = @array.sort: { .fc };
+	say @caseless;
 
+If you want to sort hash keys by their values, that's not so hard:
 
+	my %hash = (
+		Hamadryas => 137,
+		Junonia   => 511,
+		Sostrata  =>   5,
+		);
 
+	for %hash.keys.sort: { %hash{$^k} } -> $key {
+		say "$key %hash{$key}";
+		}
 
+The keys are now sorted by their values:
 
+	Sostrata 5
+	Hamadryas 137
+	Junonia 511
 
+Each of those examples transform the compared elements in the same way so you only have to specify the transformation once. Also, the C<.sort> remembers how it transformed an element and saves the result. This means that the Schwartzian Transform is builtin!
 
+If you want to create something complicated, your subroutine can return C<Order::Less>, C<Order::Same>, or C<Order::More> to signal the result of the comparison.
 
 =head3 How do I manipulate arrays of bits?
 
