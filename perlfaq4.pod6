@@ -317,6 +317,22 @@ Perl 6 has builtin set math. The set operators have both fancy and Texas version
 
 See L<https://docs.perl6.org/language/setbagmix|Sets, Bags, and Mixes> for more details.
 
+=head3 How do I test whether two arrays or hashes are equal?
+
+The C<eqv> L<https://docs.perl6.org/routine/eqv#(Operators)_infix_eqv|"equivalence" operator> returns C<True> if its two operands have the same structure and values:
+
+	my @array = < a b c >;
+	my @list  = ( 'a', 'b', 'c' );
+
+	print "Same!" if @array eqv @list;
+
+It's the same for hashes:
+
+	my %hash-a = Hamadryas => 'perlicus';
+	my %hash-b = Hamadryas => 'perlicus';
+
+	print "Same!" if %hash-a eqv %hash-b;
+
 =head3 How do I handle linked lists?
 
 =head3 How do I handle circular lists?
