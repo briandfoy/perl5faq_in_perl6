@@ -42,6 +42,17 @@ There's no C</o> flag in Perl 6. This is a Perl 5 thing that never quite did wha
 
 =head2 Why does using $&, $`, or $' slow my program down?
 
+These are Perl 5 variables that don't exist in Perl 6. The Perl 5 versions required the intrepreter to remember details about the match, which was more work (so, slower).
+
+In Perl 6, you can still get these from the L<Match> object for every match:
+
+	if 'Hamadryas' ~~ / ama / {
+		say ~$/;           # 'ama',  same as $&, the part that matched
+		say $/.prematch;   # 'H',    same as $`
+		say $/.postmatch;  # 'dryas', same as $'
+		}
+
+
 =head2 What good is C<\G> in a regular expression?
 
 =head2 Are Perl 6 regexes DFAs or NFAs? Are they POSIX compliant?
