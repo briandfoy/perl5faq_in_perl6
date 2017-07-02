@@ -583,6 +583,29 @@ Perl 6 distinguishes values from types. A value is always defined while a type i
 
 =head3 How do I determine whether a scalar is a number/whole/integer/float?
 
+If you have a string that you suspect holds a value that could be a number, use the C<Str.val> subroutine. Turn that string into an I<allomorph>, which is a type that can handle strings and numerics at the same time. If the result does the C<Numeric> role, it's a number:
+
+	my $string = '137+9i';
+	my $allomorph = val $string;
+	my $is-a-number = $allomorph.does: Numeric;  # True
+
+Calling C<.Numeric> can turn the allomorph into a pure number type:
+
+	if my $candidate = try $allomorph.Numeric {
+		put "$candidate is {$candidate.^name}";
+		}
+	else {
+		put "Not a number (it's an {$allomorph.^name})";
+		}
+
+If you want to know what sort of number you have, you can inspect its type:
+
+	my $number-type = $candidate.WHAT;
+
+Or smart match against the type you desire:
+
+	put "It's an integer" if $candidate ~~ Int;
+
 =head3 How do I keep persistent data across program calls?
 
 =head3 How do I print out or copy a recursive data structure?
