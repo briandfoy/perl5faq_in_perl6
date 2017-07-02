@@ -48,6 +48,8 @@
 
 =head2 How do I create a switch or case statement?
 
+You don't need to because it's builtin! Use C<given-when>!
+
 =head2 How can I catch accesses to undefined variables, functions, or methods?
 
 =head2 Why can't a method included in this same file be found?
