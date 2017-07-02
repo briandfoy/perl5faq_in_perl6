@@ -58,7 +58,18 @@ Start at L<http://www.perl6.org>.
 
 =head2 Where can I post questions?
 
-=head2 Perl Books
+=over 4
+
+=item * IRC L<https://perl6.org/community/irc>
+
+=item * perl6-users mailing list L<https://perl6.org/archive/lists/>
+
+=item * StackOverflow L<https://stackoverflow.com/questions/tagged/perl6>
+
+=back
+
+
+=head2 Perl 6 Books
 
 =head2 Which magazines have Perl 6 content?
 
