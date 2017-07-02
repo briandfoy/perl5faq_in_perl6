@@ -77,6 +77,8 @@ Start at L<http://www.perl6.org>.
 
 =head2 What mailing lists are there for Perl 6?
 
+See L<https://perl6.org/archive/lists/>.
+
 =head2 Where can I buy a commercial version of Perl 6?
 
 There is no commercially supported version of Perl 6 (yet).
