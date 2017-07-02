@@ -22,6 +22,8 @@
 
 =head2 What is C</o> really for?
 
+There's no C</o> flag in Perl 6. This is a Perl 5 thing that never quite did what people thought it would do.
+
 =head2 How do I use a regular expression to strip C-style comments from a file?
 
 =head2 Can I use Perl 6 regular expressions to match balanced text?
