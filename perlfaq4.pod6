@@ -31,6 +31,49 @@ Most people think an integer method is broken because they give it imprecise num
 
 =head3 Why isn't my octal data interpreted correctly?
 
+You're probably trying to convert a string to a number and getting the wrong results. This often happens when you want to specify an octal number on the command line like you would in the shell:
+
+    %prompt> chmod 644 file
+
+When you try this in Perl 6 program, that number argument is actually a string:
+
+    %prompt> perl6 chmod.p6 644 file
+
+When you turn the string C<"644"> into a number, Perl 6 thinks it's a decimal number.
+
+If you want to use the same literal digits (644) in Perl 6, you have to tell Perl to treat them as octal numbers by using the C<0o> prefix, the adverbial notation, or C<Str.parse-base>:
+
+	chmod(     0o644,           $filename );  # right
+	chmod(    :8<644>,          $filename );  # right, requires literal
+    chmod(    "0o644",          $filename );  # right
+    chmod( "644".parse-base(8), $filename );  # also correct
+
+You could specify an octal number as a string using the C<0o> prefix and Perl 6 will recognize it as an octal number when it converts it:
+
+    %prompt> perl6 chmod.p6 0o644 file
+
+In that case, this will work:
+
+    chmod( @*ARGS[0], $filename );  # right if "0o..."
+
+But, this won't work with the prefix:
+
+    chmod( @*ARGS[0].parse-base(8), $filename );  # Oops!
+
+So, you might have match it yourself to get exactly what you'll allow. This regex allows no prefix or the C<0> or C<0o> prefixes:
+
+	for <644 0o644 0644> {
+		m/ ^ \s* [0o?]? ( <[ 0..7 ]>+ ) \s* $ /;
+		my $base8 = (~$/.[0]).parse-base: 8;
+		say $base8;
+		}
+
+You can always check the value you're using by printing it in octal notation to ensure it matches what you think it should be. Print it in octal and decimal format:
+
+	my $num = 420;
+    put "Octal:   " ~ $num.base: 8;
+    put "Decimal: " ~ $num;  # decimal by default
+
 =head3 Does Perl 6 have a C<round()> function? What about C<ceil()> and C<floor()>? Trig functions?
 
 The L<round>, L<ceiling>, and L<floor> methods are in the L<Real> role (for those sorts of numbers) or in the L<Complex> class (for those numbers). You don't have to worry about what sort of number you have.
