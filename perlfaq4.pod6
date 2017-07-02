@@ -577,6 +577,8 @@ Perl 6 distinguishes values from types. A value is always defined while a type i
 
 =head3 How can I prevent addition of unwanted keys into a hash?
 
+=head2 Data: Misc
+
 =head2 How do I handle binary data correctly?
 
 =head2 How do I determine whether a scalar is a number/whole/integer/float?
