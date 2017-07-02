@@ -579,18 +579,18 @@ Perl 6 distinguishes values from types. A value is always defined while a type i
 
 =head2 Data: Misc
 
-=head2 How do I handle binary data correctly?
+=head3 How do I handle binary data correctly?
 
-=head2 How do I determine whether a scalar is a number/whole/integer/float?
+=head3 How do I determine whether a scalar is a number/whole/integer/float?
 
-=head2 How do I keep persistent data across program calls?
+=head3 How do I keep persistent data across program calls?
 
-=head2 How do I print out or copy a recursive data structure?
+=head3 How do I print out or copy a recursive data structure?
 
-=head2 How do I define methods for every class/object?
+=head3 How do I define methods for every class/object?
 
-=head2 How do I verify a credit card checksum?
+=head3 How do I verify a credit card checksum?
 
-=head2 How do I pack arrays of doubles or floats for XS code?
+=head3 How do I pack arrays of doubles or floats for XS code?
 
 =end pod
