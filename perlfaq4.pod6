@@ -543,39 +543,39 @@ Perl 6 distinguishes values from types. A value is always defined while a type i
 
 =head2 How do I process an entire hash?
 
-=head2 How do I merge two hashes?
+=head3 How do I merge two hashes?
 
-=head2 What happens if I add or remove keys from a hash while iterating over it?
+=head3 What happens if I add or remove keys from a hash while iterating over it?
 
-=head2 How do I look up a hash element by value?
+=head3 How do I look up a hash element by value?
 
-=head2 How can I know how many entries are in a hash?
+=head3 How can I know how many entries are in a hash?
 
-=head2 How do I sort a hash (optionally by value instead of key)?
+=head3 How do I sort a hash (optionally by value instead of key)?
 
-=head2 How can I always keep my hash sorted?
+=head3 How can I always keep my hash sorted?
 
-=head2 What's the difference between "delete" and "undef" with hashes?
+=head3 What's the difference between "delete" and "undef" with hashes?
 
-=head2 Why don't my tied hashes make the defined/exists distinction?
+=head3 Why don't my tied hashes make the defined/exists distinction?
 
-=head2 How do I reset an C<each()> operation part-way through?
+=head3 How do I reset an C<each()> operation part-way through?
 
-=head2 How can I get the unique keys from two hashes?
+=head3 How can I get the unique keys from two hashes?
 
-=head2 How can I store a multidimensional array in a DBM file?
+=head3 How can I store a multidimensional array in a DBM file?
 
-=head2 How can I make my hash remember the order I put elements into it?
+=head3 How can I make my hash remember the order I put elements into it?
 
-=head2 Why does passing a subroutine an undefined element in a hash create it?
+=head3 Why does passing a subroutine an undefined element in a hash create it?
 
-=head2 How can I make the Perl 6 equivalent of a C structure/C++ class/hash or array of hashes or arrays?
+=head3 How can I make the Perl 6 equivalent of a C structure/C++ class/hash or array of hashes or arrays?
 
-=head2 How can I use a reference as a hash key?
+=head3 How can I use a reference as a hash key?
 
-=head2 How can I check if a key exists in a multilevel hash?
+=head3 How can I check if a key exists in a multilevel hash?
 
-=head2 How can I prevent addition of unwanted keys into a hash?
+=head3 How can I prevent addition of unwanted keys into a hash?
 
 =head2 How do I handle binary data correctly?
 
