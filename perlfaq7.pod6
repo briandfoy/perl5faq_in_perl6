@@ -34,7 +34,7 @@
 
 =head2 How do I create a static variable?
 
-=head2 What's the difference between dynamic and lexical (static) scoping? Between local() and my()?
+=head2 What's the difference between dynamic and lexical (static) scoping? Between C<local()> and C<my()>?
 
 =head2 How can I access a dynamic variable while a similarly named lexical is in scope?
 
@@ -44,7 +44,7 @@
 
 =head2 How do I redefine a builtin function, operator, or method?
 
-=head2 What's the difference between calling a function as &foo and foo()?
+=head2 What's the difference between calling a function as C<&foo> and C<foo()>?
 
 =head2 How do I create a switch or case statement?
 

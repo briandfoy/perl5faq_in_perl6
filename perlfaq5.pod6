@@ -22,9 +22,9 @@
 
 =head2 How can I use a filehandle indirectly?
 
-=head2 How can I set up a footer format to be used with write()?
+=head2 How can I set up a footer format to be used with C<write()>?
 
-=head2 How can I write() into a string?
+=head2 How can I C<write()> into a string?
 
 =head2 How can I open a filehandle to a string?
 
@@ -66,13 +66,13 @@
 
 =head2 How do I do a C<tail -f> in Perl 6?
 
-=head2 How do I dup() a filehandle in Perl 6?
+=head2 How do I C<dup()> a filehandle in Perl 6?
 
 =head2 How do I close a file descriptor by number?
 
-=head2 Why can't I use "C:\temp\foo" in DOS paths? Why doesn't `C:\temp\foo.exe` work?
+=head2 Why can't I use F<C:\temp\foo> in DOS paths? Why doesn't F<C:\temp\foo.exe> work?
 
-=head2 Why doesn't glob("*.*") get all the files?
+=head2 Why doesn't C<glob("*.*")> get all the files?
 
 =head2 Why does Perl 6 let me delete read-only files? Why does C<-i> clobber protected files? Isn't this a bug in Perl 6?
 

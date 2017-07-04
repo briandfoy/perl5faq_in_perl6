@@ -133,7 +133,7 @@ In the strictest sense, it can't be done–the script executes as a different pr
 
 =head2 How do I use an SQL database?
 
-=head2 How do I make a system() exit on control-C?
+=head2 How do I make a C<system()> exit on control-C?
 
 =head2 How do I open a file without blocking?
 
