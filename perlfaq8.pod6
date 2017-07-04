@@ -36,7 +36,26 @@
 
 =head2 How can I measure time under a second?
 
-=head2 How can I do an atexit() or setjmp()/longjmp()? (Exception handling)
+An L<Instant|/type/Instant> does that for you. The C<now> term returns an L<Instant|/type/Instant> object:
+
+	my $start = now;
+	put "Started at $start";
+
+	sleep 0.1;
+
+	my $end = now;
+	put "Ended at $end";
+
+	my $diff = $end - $start;
+	put "Diff is $diff";
+
+The output shows the sub-second timing:
+
+	Started at Instant:1499133326.665054
+	Ended at Instant:1499133326.769821
+	Diff is 0.1047666
+
+=head2 How can I do an C<atexit()> or C<setjmp()/longjmp()>? (Exception handling)
 
 =head2 Why doesn't my sockets program work under System V (Solaris)? What does the error message "Protocol not supported" mean?
 
