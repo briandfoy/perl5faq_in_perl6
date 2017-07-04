@@ -4,6 +4,22 @@
 
 =head2 How do I find out which operating system I'm running under?
 
+Look that the C<$*DISTRO> or C<$*KERNEL> L<variables|/language/variables>:
+
+	put "Distro is $*DISTRO";
+	put "Kernel is $*KERNEL";
+
+The output is something like:
+
+	Distro is macosx
+	Kernel is darwin
+
+The C<$*DISTRO> variable is a C<Distro> object (an undocumented class). It has an C<.is-win> method that returns C<True> if you are on Windows (and C<False> otherwise):
+
+	if $*DISTRO.is-win {
+		put "I'm on Windows!"
+		}
+
 =head2 How come C<exec()> doesn't return?
 
 =head2 How do I do fancy stuff with the keyboard/screen/mouse?
