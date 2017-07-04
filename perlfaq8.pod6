@@ -50,6 +50,18 @@ The C<$*DISTRO> variable is a C<Distro> object (an undocumented class). It has a
 
 =head2 How can I C<sleep()> or C<alarm()> for under a second?
 
+To sleep less than a second, just give L<Date.sleep|/routine/sleep> a value that's less than C<1>:
+
+	sleep 0.1;
+
+Perl 6 doesn't have an C<alarm>, but you can do it with an anyof L<Promise|/type/Promise>. The first L<Promise|/type/Promise> that finishes (kept or broken) stops all them:
+
+	my $timed-out = False;
+	await Promise.anyof:
+        Promise.in($timeout-seconds).then( { $timed-out = True } ),
+        start { ... },
+        ;
+
 =head2 How can I measure time under a second?
 
 An L<Instant|/type/Instant> does that for you. The C<now> term returns an L<Instant|/type/Instant> object:
