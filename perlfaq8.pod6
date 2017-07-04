@@ -67,7 +67,7 @@ The output shows the sub-second timing:
 
 =head2 How can I open a pipe both to and from a command?
 
-=head2 Why can't I get the output of a command with system()?
+=head2 Why can't I get the output of a command with C<system()>?
 
 =head2 How can I capture STDERR from an external command?
 
