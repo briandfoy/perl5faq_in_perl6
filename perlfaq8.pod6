@@ -87,7 +87,9 @@ The output shows the sub-second timing:
 
 =head2 Is there a way to hide Perl 6's command line from programs such as "ps"?
 
-=head2 I {changed directory, modified my environment} in a Perl script. How come the change disappeared when I exited the script? How do I get my changes to be visible?
+=head2 I {changed directory, modified my environment} in a script. How come the change disappeared when I exited the script? How do I get my changes to be visible?
+
+In the strictest sense, it can't be done–the script executes as a different process from the shell it was started from. Changes to a process are not reflected in its parent–only in any children created after the change.
 
 =head2 How do I close a process's filehandle without waiting for it to complete?
 
