@@ -4,7 +4,7 @@
 
 =head2 How do I find out which operating system I'm running under?
 
-=head2 How come exec() doesn't return?
+=head2 How come C<exec()> doesn't return?
 
 =head2 How do I do fancy stuff with the keyboard/screen/mouse?
 
@@ -32,7 +32,7 @@
 
 =head2 How do I set the time and date?
 
-=head2 How can I sleep() or alarm() for under a second?
+=head2 How can I C<sleep()> or C<alarm()> for under a second?
 
 =head2 How can I measure time under a second?
 
@@ -42,7 +42,7 @@
 
 =head2 How can I call my system's unique C functions from Perl 6?
 
-=head2 Where do I get the include files to do ioctl() or syscall()?
+=head2 Where do I get the include files to do C<ioctl()> or C<syscall()>?
 
 =head2 Why do setuid perl scripts complain about kernel problems?
 
@@ -52,7 +52,7 @@
 
 =head2 How can I capture STDERR from an external command?
 
-=head2 Why doesn't open() return an error when a pipe open fails?
+=head2 Why doesn't C<open()> return an error when a pipe open fails?
 
 =head2 What's wrong with using backticks in a void context?
 
