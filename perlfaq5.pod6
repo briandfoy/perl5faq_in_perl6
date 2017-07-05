@@ -58,6 +58,16 @@
 
 =head2 How can I read in an entire file all at once?
 
+L<slurp|https://docs.perl6.org/routine/slurp> will do that for you.
+
+As a routine:
+
+	my $contents = slurp $filename;
+
+As a method:
+
+	my $contents = $filename.IO.slurp;
+
 =head2 How can I read in a file by paragraphs?
 
 =head2 How can I read a single character from a file? From the keyboard?
