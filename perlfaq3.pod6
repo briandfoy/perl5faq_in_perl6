@@ -6,6 +6,23 @@
 
 =head2 How can I use Perl 6 interactively?
 
+Perl 6 comes with a REPL builtin. Run B<perl6> with no arguments to start it:
+
+	%prompt> perl6
+	To exit type 'exit' or '^D'
+	>
+
+From there you can evaluate expressions or lines of code:
+
+	> 2 + 2
+	4
+	> my $n = 2
+	2
+	> my $m = 2
+	2
+	> $n + $m
+	4
+
 =head2 How do I find which modules are installed on my system?
 
 =head2 How do I debug my Perl 6 programs?
