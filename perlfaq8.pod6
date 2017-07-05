@@ -149,6 +149,10 @@ Perl 6 doesn't have an C<alarm>, but you can do it with an anyof L<Promise|/type
 
 =head2 How do I install a module from CPAN?
 
+Perl 6 doesn't fully use CPAN quite yet. People register their moudles in the Perl 6 Ecosystem (L<http://modules.perl6.org>). The L<zef|https://github.com/ugexe/zef> tool can install these modules for you:
+
+	%prompt> zef install Some::Module
+
 =head2 What's the difference between require and use?
 
 =head2 How do I keep my own module/library directory?
