@@ -30,6 +30,8 @@
 
 =head2 What is variable suicide and how can I prevent it?
 
+"Variable suicide" was an ancient Perl 5 problem with scoping. It's not one of the features that Perl 6 brought forward.
+
 =head2 How can I pass/return a {Function, FileHandle, Array, Hash, Method, Regex}?
 
 You don't have to do anything special to pass around objects of any sort. Provide them as an argument and that's it:
