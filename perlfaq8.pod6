@@ -128,6 +128,13 @@ In the strictest sense, it can't be done–the script executes as a different pr
 
 =head2 How do I timeout a slow event?
 
+Perl 6 doesn't have an C<alarm>, but you can do it with an anyof L<Promise|/type/Promise>. The first L<Promise|/type/Promise> that finishes (kept or broken) stops all them:
+
+	my $timed-out = False;
+	await Promise.anyof:
+        Promise.in($timeout-seconds).then( { $timed-out = True } ),
+        start { #`( Really slow event here ) },
+        ;
 =head2 How do I set CPU limits?
 
 =head2 How do I avoid zombies on a Unix system?
