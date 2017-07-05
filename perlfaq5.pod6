@@ -52,6 +52,17 @@
 
 =head2 How do I get a file's timestamp in Perl 6?
 
+There are three timestamps you may care about: the inode change time, the modification time, and the last access time. There are methods in L<IO::Path|/type/IO::Path> for these:
+
+	my $time = $filename.IO.modified;
+
+	my $time = $filename.IO.accessed;
+
+The time of the last meta-data change time. That's different than the last time the I<contents> of the file were changed:
+
+	my $time = $filename.IO.changed;
+
+
 =head2 How do I set a file's timestamp in Perl 6?
 
 =head2 How do I print to more than one file at once?
