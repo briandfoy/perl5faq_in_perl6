@@ -57,6 +57,7 @@ To sleep less than a second, just give L<Date.sleep|/routine/sleep> a value that
 Perl 6 doesn't have an C<alarm>, but you can do it with an anyof L<Promise|/type/Promise>. The first L<Promise|/type/Promise> that finishes (kept or broken) stops all them:
 
 	my $timed-out = False;
+	mt $timeout-seconds = 10;
 	await Promise.anyof:
         Promise.in($timeout-seconds).then( { $timed-out = True } ),
         start { ... },
