@@ -4,6 +4,10 @@
 
 =head2 How do I flush/unbuffer an output filehandle? Why must I do this?
 
+Perl 6 doesn't autoflush (unbuffer) filehandles yet. You can force a filehandle to flush its buffer with L<IO::Handle.flush|/routine/flush>.
+
+You might like to read L<Suffering from Buffering|http://perl.plover.com/FAQs/Buffering.html> by Mark Jason Dominus. It's shows Perl 5, but discusses the reasons around buffering (or not buffering).
+
 =head2 How do I change, delete, or insert a line in a file, or append to the beginning of a file?
 
 =head2 How do I count the number of lines in a file?
