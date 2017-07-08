@@ -64,6 +64,24 @@ You might like to read L<Suffering from Buffering|http://perl.plover.com/FAQs/Bu
 
 =head2 How can I read in a file by paragraphs?
 
+You can tell your L<IO::Handle|/type/IO::Handle> object what you want the line ending to be, which has to be a string. If you're paragraphs are separated by double newlines, specify that line ending in C<:nl-in>:
+
+	my $fh = $filename.IO.open: :nl-in("\n\n");
+	for $fh.lines -> $line {
+		say "｢$line｣";
+		}
+	$fh.close;
+
+If you specify the empty string, that's the same as saying there's no line ending. That reads the entire file:
+
+	my $fh = $filename.IO.open: :nl-in('');  # single line
+	for $fh.lines -> $line {
+		say "｢$line｣";
+		}
+	$fh.close;
+
+But, if you wanted to do that, you can use L<slurp|/routine/slurp>.
+
 =head2 How can I read a single character from a file? From the keyboard?
 
 =head2 How can I tell whether there's a character waiting on a filehandle?
