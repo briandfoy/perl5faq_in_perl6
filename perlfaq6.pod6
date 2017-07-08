@@ -12,6 +12,18 @@
 
 =head2 I put a regular expression into C<$/> but it didn't work. What's wrong?
 
+The Perl 5 variable C<$/> is the input record separator (the line ending for reading from a file). Some people wanted to have that line ending be a pattern instead of a set string.
+
+The Perl 6 was is to set the L<:nl-in|/type/IO::Handle#method_nl-in> parameter on your call to L<open|/routine/open#(IO::Handle)_method_open>:
+
+	my $fh = open 'some-file', :r, :nl-in("\f");
+
+That value for C<:nl-in> can be a L<List|/type/List> of strings:
+
+	my $fh = open 'some-file', :r, :nl-in( ["\f","\n"," "] );
+
+The list elements must to stringifiable though, and its their string versions that become the possible line endings.
+
 =head2 How do I substitute case-insensitively on the LHS while preserving case on the RHS?
 
 =head2 How can I make C<\w> match national character sets?
