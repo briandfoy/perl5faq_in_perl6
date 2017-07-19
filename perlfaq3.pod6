@@ -6,7 +6,7 @@
 
 =head2 How can I use Perl 6 interactively?
 
-Perl 6 comes with a REPL builtin. Run B<perl6> with no arguments to start it:
+Perl 6 comes with a REPL (Read-Eval-Print Loop) builtin. Run B<perl6> with no arguments to start it:
 
 	%prompt> perl6
 	To exit type 'exit' or '^D'
